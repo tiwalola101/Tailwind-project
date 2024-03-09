@@ -1,0 +1,206 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            screens:{
+                sm: "480px",
+                md: "768px",
+                lg: "976px",
+                xl: "1440px"
+            },
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                purple: "#BB2CD9",
+                pink: "#EA7773"
+              }
+            }
+          }
+        }
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>weatherbys</title>
+</head>
+<body class="font-serif">
+    <h1>THIS SITE WAS BUILT FOR EDUCATIONAL PURPOSES ONLY</h1>
+    <div class="">
+        <div class="border border-slate-500 flex justify-center">
+            <img class="" src="logow.png" alt="">
+        </div>
+    
+        <header class="flex justify-around ">
+            <div class="gap-x-10 text-lg space-x-4">
+                <a href="" >About Us<i class="fa-solid fa-angle-down"></i></a>
+                <a href="">Private Bank<i class="fa-solid fa-angle-down"></i></a>
+                <a href="">Racing Bank<i class="fa-solid fa-angle-down"></i></a>
+                <a href="">Insights<i class="fa-solid fa-angle-down"></i></a>
+                <a href="">Help & Support<i class="fa-solid fa-angle-down"></i></a>
+                <a href="">Contact Us</a>
+            </div>
+            <div class="gap-y-10">
+                <i class="fa-solid fa-magnifying-glass fa-2xl"></i>
+                <i class="fa-solid fa-phone fa-2xl"></i>
+                <button class="bg-black text-white h-9 w-32 text-medium rounded">Login</button>
+            </div>
+        </header>
+    </div>
+    <div>
+        <div class="bg-black text-white">The Weatherbys Bank base rate is currently 5.25%. Find out more.</div>
+        <img class="size-full" src="cityl.jpg" alt="">
+    </div>
+    <div class="px-72">
+        <div>
+            <h1 class="text-6xl text-violet-600 pt-12 pb-12 pr-10 font-light">Join our family</h1>
+            <h5 class="text-2xl py-6">Founded in 1770, Weatherbys is a family run business that has evolved 
+                <br> over the last 250 years to become a group of companies which include 
+                <br> Weatherbys Private Bank and Weatherbys Racing Bank.</h5>
+            <h6 class="text-base py-4">Our business is founded on relationships, and we are focussed on providing exceptional levels of <br> 
+                personal service. As a team we not only anticipate our clients’ needs, but aim to surpass their 
+                <br> individual expectations. Our values of being trustworthy, forward looking and acting with integrity <br> 
+                underpin everything we do.</h6>
+            <h6 class="text-base py-4">Whether you are interested in our <span class="text-orange-300">Private Bank</span> or <span class="text-orange-300">Racing Bank</span>, we look forward to supporting you in <br>
+                 managing your finances with a range of services designed around you. When you join Weatherbys, <br>
+                  you don’t just join a bank, you become part of our family.</h6>
+        </div>
+        <div class="text-xl flex flex-row gap-6">
+            <div class="">
+                <img src="car1.jpg" alt="">
+                <div class="bg-violet-700">
+                    <h1>Weatherbys Private Bank</h1>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+            <div class="bg-green-700">
+                <img src="horse.jpg" alt="">
+                <div>
+                    <h1>Weatherbys Racing Bank</h1>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="px-6">
+        <h1 class="text-6xl font-light text-violet-600">Latest insights</h1>
+    </div>
+    <div class="grid grid-cols-2 space-x-2">
+        <div class="grid grid-row-2 w-auto space-y-7">
+            <div class="bg-blue-800 grid grid-cols-2">
+                <div>
+                  <section>Investment & wealth advice</section>
+                <section>Pension-how taking advice <br> now could make a difference of 
+                    <br> <i class="fa-solid fa-sterling-sign"></i>1000s
+                </section>
+                <section>5 mins read 1 week ago</section>
+                </div>
+                <div>
+                    <img src="old2.jpg" alt="">
+                </div>
+            </div>
+            <div class="bg-blue-800 grid grid-cols-2">
+                <div>
+                  <section>Investment & wealth advice</section>
+                <section>The winding road to tax <br> planning for car collections</section>
+                <section>4 mins read  3 weeks ago</section>
+                </div>
+                <div>
+                    <img src="car3.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class=" grid grid-cols-2 space-x-2">
+            <div>
+              <div class="space-y-2 bg-blue-800">
+                <div class="">
+                    <img src="reeecity.jpg" alt="">
+                </div>
+                <div class="space-y-9">
+                <section>Investment & wealth advice</section>
+                <section>Gear up for interest rate cuts</section>
+              </div>
+               <div>
+                  <section>5 mins read 1 month ago</section>
+               </div>
+              </div>    
+            </div>
+            <div>
+              <div class="space-y-2 bg-blue-800">
+                <div class="">
+                    <img src="desk.jpg" alt="">
+                </div>
+                <div class="space-y-9">
+                <section>Investment & wealth advice</section>
+                <section>Try doing your own probate <br> this year</section>
+              </div>
+               <div>
+                  <section>5 mins read 1 month ago</section>
+               </div>
+              </div>     
+            </div>
+        </div>
+        <button class="bg-yellow-600 py-2 px-1 w-40">View All</button>
+</div>
+
+<div class="mx-48 space-y-8">
+    <div class="justify-end">
+        <img src="logo2.jpg" alt="">
+    </div>
+    <div class="flex flex-col">
+      <div class="text-4xl font-serif text-violet-600">Become a client</div>
+      <section>
+        <div class="flex flex-row items-center justify-between space-x-10">
+         <div class="flex space-x-6 ">
+          <section class="bg-yellow-600 py-2 px-1">Private Bank</section>
+          <section class="bg-yellow-600 py-2 px-1">Racing Bank</section>
+         </div>
+         <div class="flex space-x-4">
+          <div class="flex items-center space-x-3">
+            <section>Private Bank</section>
+            <i class="fa-brands fa-linkedin fa-xl"></i>
+          </div>
+          <div class="flex items-center space-x-3">
+            <section>Racing Bank</section> 
+            <i class="fa-brands fa-twitter fa-xl"></i>
+          </div>
+         </div>
+        </div>
+    </div>
+    <div class="flex justify-around space-x-4">
+      <div class="space-y-4">
+        <h1>Group</h1>
+        <li class="space-y-4">
+          <ul class="hover:text-yellow-300">Weatherbys Ltd</ul>
+          <ul class="hover:text-yellow-300">Weatherbys Hamilton</ul>
+          <ul class="hover:text-yellow-300">Arkle Finance</ul>
+          <ul class="hover:text-yellow-300">Corporate information</ul>
+        </li>
+      </div>
+      <div class="space-y-4">
+        <h1>Useful links</h1>
+        <li class="space-y-4">
+          <ul class="hover:text-yellow-300">Help & Support</ul>
+          <ul class="hover:text-yellow-300">Careers</ul>
+          <ul class="hover:text-yellow-300">Press & media relations</ul>
+        </li>
+      </div>
+      <div class="space-y-4">
+        <h1>Policies and legal information</h1>
+        <li class="space-y-4">
+          <ul class="hover:text-yellow-300">Website terms & conditions</ul>
+          <ul class="hover:text-yellow-300">Privacy Poilicy</ul>
+          <ul class="hover:text-yellow-300">How to complain</ul>
+          <ul class="hover:text-yellow-300">Modern Slavery Statement</ul>
+        </li>
+      </div>
+    </div>
+    <div>
+      <p class="text-xs">Weatherbys Private Bank and Weatherbys Racing Bank are trading names of Weatherbys Bank Ltd and are authorised by the Prudential Regulation Authority, and regulated by the Financial Conduct Authority and the Prudential Regulation Authority. Financial Services Register number: 204571. Weatherbys Bank Ltd is registered at Sanders Road Wellingborough Northamptonshire NN8 4BX. Registered number: 2943300.</p>
+    </div>
+  </div>
+
+</body>
+</html>
